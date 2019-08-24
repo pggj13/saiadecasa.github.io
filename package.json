@@ -1,0 +1,11 @@
+{
+    "name": "saiadecasa",
+    "dependencies": {},
+    "devDependencies": {
+        "csslint": "~0.10.0",
+        "htmlhint": "^0.10.1",
+        "jshint": "^2.9.6",
+        "mocha": "^5.2.0",
+        "should": "~7.1.0"
+    }
+}

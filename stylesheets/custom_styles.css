@@ -1,0 +1,48 @@
+#o-que-vai-rolar {
+  margin-bottom: 0;
+}
+
+#ordering {
+  font-size: .9em;
+}
+
+#ordering ul {
+  display: inline;
+}
+
+#ordering li {
+  padding: 0;
+  display: inline-block;
+}
+
+#ordering li:not(:last-child)::after {
+  content: '-';
+  display: inline-block;
+}
+
+#ordering .active {
+  font-weight: bold;
+}
+
+.event .past-event-notice {
+  display: none;
+  margin: 0;
+  padding: 5px 1em;
+
+  border: 1px solid #d5000d;
+  border-radius: 3px;
+  background-color: #ffd5d8;
+}
+
+.event .past-event-notice .fa-warning {
+  vertical-align: middle;
+  color: #d5000d;
+}
+
+.event.past .event-content {
+  opacity: .5;
+}
+
+.event.past .past-event-notice {
+  display: block;
+}
